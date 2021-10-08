@@ -882,10 +882,10 @@
   resolved "https://registry.nlark.com/@react-native/normalize-color/download/@react-native/normalize-color-1.0.0.tgz?cache=0&sync_timestamp=1630450336172&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40react-native%2Fnormalize-color%2Fdownload%2F%40react-native%2Fnormalize-color-1.0.0.tgz#c52a99d4fe01049102d47dc45d40cbde4f720ab6"
   integrity sha1-xSqZ1P4BBJEC1H3EXUDL3k9yCrY=
 
-"@react-native/polyfills@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.nlark.com/@react-native/polyfills/download/@react-native/polyfills-2.0.0.tgz#4c40b74655c83982c8cf47530ee7dc13d957b6aa"
-  integrity sha1-TEC3RlXIOYLIz0dTDufcE9lXtqo=
+"@react-native/polyfills@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.nlark.com/@react-native/polyfills/download/@react-native/polyfills-1.0.0.tgz#05bb0031533598f9458cf65a502b8df0eecae780"
+  integrity sha1-BbsAMVM1mPlFjPZaUCuN8O7K54A=
 
 "@sideway/address@^4.1.0":
   version "4.1.2"
@@ -2032,10 +2032,10 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
-hermes-engine@~0.9.0:
-  version "0.9.0"
-  resolved "https://registry.nlark.com/hermes-engine/download/hermes-engine-0.9.0.tgz?cache=0&sync_timestamp=1630568512237&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fhermes-engine%2Fdownload%2Fhermes-engine-0.9.0.tgz#84d9cfe84e8f6b1b2020d6e71b350cec84ed982f"
-  integrity sha1-hNnP6E6PaxsgINbnGzUM7ITtmC8=
+hermes-engine@~0.8.1:
+  version "0.8.1"
+  resolved "https://registry.nlark.com/hermes-engine/download/hermes-engine-0.8.1.tgz?cache=0&sync_timestamp=1630568512237&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fhermes-engine%2Fdownload%2Fhermes-engine-0.8.1.tgz#b6d0d70508ac5add2d198304502fb968cdecb8b2"
+  integrity sha1-ttDXBQisWt0tGYMEUC+5aM3suLI=
 
 hermes-parser@0.4.7:
   version "0.4.7"
@@ -3282,7 +3282,7 @@ range-parser@~1.2.1:
   resolved "https://registry.npm.taobao.org/range-parser/download/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
   integrity sha1-PPNwI9GZ4cJNGlW4SADC8+ZGgDE=
 
-react-devtools-core@^4.13.0:
+react-devtools-core@^4.6.0:
   version "4.19.1"
   resolved "https://registry.npmmirror.com/react-devtools-core/download/react-devtools-core-4.19.1.tgz#bc37c2ef2f48f28c6af4c7292be9dca1b63deace"
   integrity sha1-vDfC7y9I8oxq9McpK+ncobY96s4=
@@ -3300,19 +3300,19 @@ react-is@^17.0.1:
   resolved "https://registry.npmmirror.com/react-is/download/react-is-17.0.2.tgz?cache=0&sync_timestamp=1633536883806&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Freact-is%2Fdownload%2Freact-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha1-5pHUqOnHiTZWVVOas3J2Kw77VPA=
 
-react-native-codegen@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.npmmirror.com/react-native-codegen/download/react-native-codegen-0.0.7.tgz#86651c5c5fec67a8077ef7f4e36f7ed459043e14"
-  integrity sha1-hmUcXF/sZ6gHfvf0429+1FkEPhQ=
+react-native-codegen@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.npmmirror.com/react-native-codegen/download/react-native-codegen-0.0.8.tgz#b7796a54074139d956fff2862cf1285db43c891b"
+  integrity sha1-t3lqVAdBOdlW//KGLPEoXbQ8iRs=
   dependencies:
     flow-parser "^0.121.0"
     jscodeshift "^0.11.0"
     nullthrows "^1.1.1"
 
-react-native@0.66.0:
-  version "0.66.0"
-  resolved "https://registry.npmmirror.com/react-native/download/react-native-0.66.0.tgz#99bdd83a9a612a71b94242767989d666d445b007"
-  integrity sha1-mb3YOpphKnG5QkJ2eYnWZtRFsAc=
+react-native@0.65.0:
+  version "0.65.0"
+  resolved "https://registry.npmmirror.com/react-native/download/react-native-0.65.0.tgz#42f95c57cb6e50510b8004c99129104faa2b4cef"
+  integrity sha1-QvlcV8tuUFELgATJkSkQT6orTO8=
   dependencies:
     "@jest/create-cache-key-function" "^27.0.1"
     "@react-native-community/cli" "^6.0.0"
@@ -3320,12 +3320,12 @@ react-native@0.66.0:
     "@react-native-community/cli-platform-ios" "^6.0.0"
     "@react-native/assets" "1.0.0"
     "@react-native/normalize-color" "1.0.0"
-    "@react-native/polyfills" "2.0.0"
+    "@react-native/polyfills" "1.0.0"
     abort-controller "^3.0.0"
     anser "^1.4.9"
     base64-js "^1.1.2"
     event-target-shim "^5.0.1"
-    hermes-engine "~0.9.0"
+    hermes-engine "~0.8.1"
     invariant "^2.2.4"
     jsc-android "^250230.2.1"
     metro-babel-register "0.66.2"
@@ -3336,11 +3336,10 @@ react-native@0.66.0:
     pretty-format "^26.5.2"
     promise "^8.0.3"
     prop-types "^15.7.2"
-    react-devtools-core "^4.13.0"
-    react-native-codegen "^0.0.7"
+    react-devtools-core "^4.6.0"
     react-refresh "^0.4.0"
     regenerator-runtime "^0.13.2"
-    scheduler "^0.20.2"
+    scheduler "^0.20.1"
     stacktrace-parser "^0.1.3"
     use-subscription "^1.0.0"
     whatwg-fetch "^3.0.0"
@@ -3547,7 +3546,7 @@ sax@^1.2.1:
   resolved "https://registry.nlark.com/sax/download/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha1-KBYjTiN4vdxOU1T6tcqold9xANk=
 
-scheduler@^0.20.2:
+scheduler@^0.20.1:
   version "0.20.2"
   resolved "https://registry.npmmirror.com/scheduler/download/scheduler-0.20.2.tgz#4baee39436e34aa93b4874bddcbf0fe8b8b50e91"
   integrity sha1-S67jlDbjSqk7SHS93L8P6Li1DpE=

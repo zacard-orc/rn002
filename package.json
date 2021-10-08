@@ -9,6 +9,9 @@
   "author": "zacard.lin",
   "license": "ISC",
   "dependencies": {
-    "react-native": "0.66.0"
+    "react-native": "0.65.0"
+  },
+  "devDependencies": {
+    "react-native-codegen": "^0.0.8"
   }
 }
